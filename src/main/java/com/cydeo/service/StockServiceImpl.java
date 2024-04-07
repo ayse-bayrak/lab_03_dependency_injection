@@ -5,9 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-
 public class StockServiceImpl implements StockService {
-
 
     @Override
     public boolean checkStockIsAvailable(Product product, int quantity) {
